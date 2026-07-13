@@ -1,13 +1,12 @@
 const navLinks = [
   { label: 'Services', href: '#services' },
-  { label: 'Projects', href: '#projects' },
   { label: 'About', href: '#about' },
   { label: 'Contact', href: '#contact' },
 ]
 
 function Navbar() {
   return (
-    <header className="relative z-10 border-b border-[#d6bd68]/15 bg-[#111217]/90 backdrop-blur">
+    <header className="sticky top-0 z-50 border-b border-[#d6bd68]/15 bg-[#111217]/90 backdrop-blur">
       <nav
         className="mx-auto flex max-w-7xl flex-col gap-5 px-6 py-5 sm:flex-row sm:items-center sm:justify-between lg:px-8"
         aria-label="Main navigation"

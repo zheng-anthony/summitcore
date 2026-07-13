@@ -5,13 +5,12 @@ import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Process from './components/Process'
-import Projects from './components/Projects'
 import Services from './components/Services'
 import TrustStrip from './components/TrustStrip'
 
 function App() {
   return (
-    <div className="min-h-screen overflow-hidden bg-[#111217] font-sans text-[#f5f5f5]">
+    <div className="min-h-screen overflow-x-clip bg-[#111217] font-sans text-[#f5f5f5]">
       <div className="pointer-events-none fixed inset-0 opacity-40">
         <div className="absolute left-0 top-28 h-px w-full bg-gradient-to-r from-transparent via-[#d6bd68]/30 to-transparent" />
         <div className="absolute right-10 top-0 h-full w-px bg-gradient-to-b from-[#d6bd68]/30 via-transparent to-transparent" />
@@ -23,10 +22,9 @@ function App() {
         <Hero />
         <TrustStrip />
         <Services />
-        <Projects />
+        <About />
         <Process />
         <ClientPriorities />
-        <About />
         <Contact />
       </main>
       <Footer />
