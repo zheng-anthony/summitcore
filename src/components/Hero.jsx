@@ -57,7 +57,7 @@ function Hero() {
                   </p>
                 </div>
 
-                <div className="absolute bottom-8 left-8 max-w-64 border-l-2 border-[#d6bd68] pl-5">
+                <div className="absolute bottom-8 left-8 right-8 z-10 border border-[#d6bd68]/60 bg-[#111217]/95 p-5 shadow-xl shadow-black/40 backdrop-blur-sm">
                   <p className="text-xs uppercase tracking-[0.28em] text-[#d6bd68]">
                     Precision Plans
                   </p>
