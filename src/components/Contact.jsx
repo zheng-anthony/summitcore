@@ -23,12 +23,20 @@ function Contact() {
               </p>
             </div>
 
-            <a
-              href="mailto:contact@summitcoregroup.com"
-              className="inline-flex items-center justify-center border border-[#d6bd68] bg-[#d6bd68] px-8 py-4 text-sm font-semibold uppercase tracking-[0.2em] text-[#111217] transition duration-200 hover:bg-transparent hover:text-[#d6bd68] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#d6bd68]"
-            >
-              Get in Touch
-            </a>
+            <div className="flex flex-col gap-4 sm:flex-row lg:flex-col">
+              <a
+                href="tel:+13527271034"
+                className="inline-flex items-center justify-center border border-[#d6bd68] bg-[#d6bd68] px-8 py-4 text-center text-sm font-semibold uppercase tracking-[0.2em] text-[#111217] transition duration-200 hover:bg-transparent hover:text-[#d6bd68] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#d6bd68]"
+              >
+                Call or Text&nbsp; (352) 727-1034
+              </a>
+              <a
+                href="mailto:Jlruiz2386@gmail.com"
+                className="inline-flex items-center justify-center border border-[#d6bd68] px-8 py-4 text-sm font-semibold uppercase tracking-[0.2em] text-[#d6bd68] transition duration-200 hover:bg-[#d6bd68] hover:text-[#111217] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#d6bd68]"
+              >
+                Email Us
+              </a>
+            </div>
           </div>
         </div>
       </div>
